@@ -8,134 +8,18 @@
 </head>
 <body>
   
-<!-- Lien d’évitement pour l’accessibilité -->
-  <a href="#contenu" class="sr-only">Aller au contenu</a>
+  <footer>
 
-  <!-- === En-tête (identique sur les 3 pages) === -->
-  <header role="banner">
-    <div class="branding">
-      <!-- Remplacez assets/logo.png par le chemin réel de votre logo -->
-      <img src="assets/logo.png" alt="Logo du restaurant Délices Afro-Canadiens" width="120" height="120" />
-      <h1>Délices Afro-Canadiens</h1>
-    </div>
+      <h3>restons en contact</h3>
+      
+        <address>
+          Adresse: 123 rue Donald Street<br>
+          Telephone: 01-23-45-67-89<br>
 
-    <!-- === Navigation à deux niveaux (identique sur les 3 pages) === -->
-    <nav aria-label="Navigation principale">
-      <ul class="niveau-1">
-        <!-- Lien vers la page courante (Accueil) -->
-        <li>
-          <a href="index.html" class="actif" aria-current="page">Accueil</a>
-          <!-- Sous-menu (niveau 2) : ancres de la page EN COURS -->
-          <ul class="niveau-2" aria-label="Sections de cette page">
-            <li><a href="#histoire">Histoire</a></li>
-            <li><a href="#equipe">Équipe</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </li>
+        </address> 
+      
+  </footer>
 
- <!-- Autres pages du site (à créer : menu.html, reservations.html) -->
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="reservations.html">Réservations</a></li>
-        <li><a href="Temoignages.html">Témoignages</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- === Contenu principal === -->
-  <main id="contenu">
-    <!-- Section : Histoire -->
-    <section id="histoire" aria-labelledby="titre-histoire">
-      <h2 id="titre-histoire">Notre Histoire</h2>
-      <p>
-        Fondé en 1998 au cœur de la ville, <strong>Nom du Restaurant</strong> naît de la passion
-        pour les produits locaux et les recettes de tradition. De la petite table conviviale
-        du quartier à une adresse incontournable, notre philosophie n'a jamais changé:
-        une cuisine sincère, de saison, et un accueil chaleureux.
-      </p>
-    </section>
-
-    <!-- Section : Équipe -->
-    <section id="equipe" aria-labelledby="titre-equipe">
-      <h2 id="titre-equipe">Notre Équipe</h2>
-
-      <article>
-        <h3>Chef Cuisinier — <span lang="fr">Johnathan Cook</span></h3>
-        <p>
-          Artisan du goût et fervent défenseur du circuit court, notre chef imagine
-          des assiettes qui célèbrent le terroir. Sa signature: des associations
-          franches, des cuissons précises et une carte qui évolue au fil des saisons.
-        </p>
-      </article>
-
-      <article>
-        <h3>Chef du Personnel — <span lang="fr">Margueritte Blanchard</span></h3>
-        <p>
-          Véritable chef d'orchestre de la salle, elle veille à la qualité de
-          l'accueil, au confort des invités et à la fluidité du service. Son credo:
-          attention, bienveillance et efficacité à chaque instant.
-        </p>
-      </article>
-    </section>
-
-<!-- Section : Formulaire de contact -->
-    <section id="contact" aria-labelledby="titre-contact">
-      <h2 id="titre-contact">Contactez-nous</h2>
-      <p>Tous les champs indiqués comme requis doivent être complétés.</p>
-
-       <section id="FormulaireDeContact">
-        <h2><img src="https://www.freeiconspng.com/uploads/contacts-icon-7.png" alt="FormulaireDeContact" width="19" height="19"> Formulaire de contact</h2>
-            <form>
-                <fieldset>
-                    <legend><i>Informations personnelles</i></legend>
-                    <p>
-                        <label>Nom: 
-                            <input type="text" placeholder="Nom de famille">
-                        </label>
-                    </p>
-                    <p>
-                        <label>Prénom: 
-                            <input type="text" placeholder="Prénom">
-                        </label>    
-                    </p>
-                            
-                    <p>
-                        <label for="monEmail">email:
-                            <input type="text" id="monEmail" placeholder="email">
-                        </label>   
-                    </p>    
-                    
-                    <p>
-                        Sexe: 
-                            <br>
-                                <input type="radio" id ="radio_indiv" name="Sexe">
-                                <label id="Homme">Homme</label>  
-                                                        
-                                <input type="radio" name="Sexe">
-                                <label id="Femme">Femme</label>  
-                                
-                    </p>
-                </fieldset>
-
-                <p> <input type="checkbox"  id="EspaceFumeur" name="EspaceFumeur"> Espace Fumeur </p>
-
-                <p>
-                    <label><img src="https://static.vecteezy.com/system/resources/previews/014/321/505/original/message-icon-logo-design-vector.jpg" alt="Messages" width="25" height="25"><i>Messages:</i></label>
-                    <br><textarea name="Messages" id="Messages" cols="60" rows="15"></textarea>
-                    
-                    <br><input type="submit" value="soumettre">
-                        <input type="reset" value="Reinitialiser">  
-                </p>
-            </form>
-    </section>
-  </main>
-
-  <!-- === Pied de page (identique sur les 3 pages) === -->
-  <footer role="contentinfo">
-    <address>
-      <strong>Délices Afro-Canadiens</strong><br />
-      123 Rue Principale, Gatineau, QC, Canada<br />
-      Tél. : <a href="tel:+18195551234">+1 819 555-1234</a>
-    </address>
-  </footer> 
+    
 </body>
 </html>
