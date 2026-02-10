@@ -6,6 +6,32 @@
     <title>Document</title>
 </head>
 <body>
+     <!-- === En-tête (identique sur les 3 pages) === -->
+  <header role="banner">
+    <div class="branding">
+      <img src="https://i.postimg.cc/sxFCXm7h/Logo_Project.jpg" alt="Logo du restaurant Délices Afro-Canada" width="500" height="300" />
+      <h1>Délices Afro-Canada</h1>
+    </div>
+
+    <!-- === Navigation à deux niveaux (identique sur les 3 pages) === -->
+    <nav aria-label="Navigation principale">
+      <ul class="niveau-1">
+        <!-- Lien vers la page courante (Temoignages) -->
+        <li>
+          <a href="Temoignages.html" class="actif" aria-current="page">Témoignages</a>
+          <!-- Sous-menu (niveau 2) : ancres de la page EN COURS -->
+          <ul class="niveau-2" aria-label="Sections de cette page">
+            <li><a href="#Temoignages">Témoignages</a></li>
+            <li><a href="#Evenements">Évènements</a></li>
+          </ul>
+        </li>
+
+ <!-- Autres pages du site  -->
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="carte.html">Menu</a></li>
+      </ul>
+    </nav>
+    <section id="Temoignages">
     <h1>Témoignages</h1>
     <table border="1" cellspacing="0" cellpadding="10">
         <tr>
@@ -38,7 +64,7 @@
 
         </tr>
     </table>
-
+    <section id="Evenements">
     <h2>Évènements a venir: </h2>
     <ul>
         <li>Atelier de cuisine - 2024-07-15
@@ -63,6 +89,13 @@
             </ul>
         </li>
     </ul>
-    
+      <!-- === Pied de page (identique sur les 3 pages) === -->
+  <footer role="contentinfo">
+    <address>
+      <strong>Délices Afro-Canada</strong><br />
+      123 Rue Principale, Gatineau, QC, Canada<br />
+      Tél. : <a href="tel:+18195551234">+1 819 555-1234</a>
+    </address>
+  </footer>
 </body>
 </html>
