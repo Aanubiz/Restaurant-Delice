@@ -1,156 +1,158 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Notre Carte</title>
+  <meta charset="UTF-8">
+  <title>Notre Carte</title>
 </head>
 
 <body>
-    <!-- === En-tête (identique sur les 3 pages) === -->
-  <header role="banner">
-    <div class="branding">
-      <img src="https://i.postimg.cc/sxFCXm7h/Logo_Project.jpg" alt="Logo du restaurant Délices Afro-Canada" width="500" height="300" />
-      <h1>Délices Afro-Canada</h1>
+  <!-- +++++++++++++++++++++++++++++++ 
+   Barre de navigation
+  ++++++++++++++++++++++++++++++++++++ -->
+   <header>
+    <div>
+      <!-- Logo & Titre -->
+      <table width="70%">
+        <tr>
+          <td><img src="images/Delice.png" alt="Logo du restaurant Délices Afro-Canadiens" width="120" height="120" /></td>
+          <td><h1>Délices Afro-Canadiens</h1></td>
+          <td align="right"><h4><a href="index.html">Acceuil</a></h4></td>
+          <td align="right"><h4><a href="#">Notre Carte</a></h4></td>
+          <td align="right"><h4><a href="Temoignages.html">Témoignage</a></h4></td>
+          <td align="right"><h4><a href="Formulaire.html">Contact</a></h4></td>
+        </tr>
+      </table>
     </div>
-
-
-    <!-- === Navigation à deux niveaux (identique sur les 3 pages) === -->
-    <nav aria-label="Navigation principale">
-      <ul class="niveau-1">
-        <!-- Lien vers la page courante (Menu) -->
-        <li>
-          <a href="carte.html" class="actif" aria-current="page">Menu</a>
-          <!-- Sous-menu (niveau 2) : ancres de la page EN COURS -->
-          <ul class="niveau-2" aria-label="Sections de cette page">
-            <li><a href="#entrees">Entrées</a></li>
-            <li><a href="#plats">Plats</a></li>
-            <li><a href="#desserts">Desserts</a></li>
-            <li><a href="#video">Vidéo</a></li>
-            <li><a href="#horaires">Horaires</a></li>
-          </ul>
-        </li>
-
- <!-- Autres pages du site  -->
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="Temoignages.html">Témoignages</a></li>
-      </ul>
-    </nav>
+  </header>
+  <hr>
 
     <h1>Notre Carte</h1>
 
     <!-- SECTION ENTREES -->
     <section id="entrees">
-        <h2>Entrées</h2>
+      <h2>Entrées</h2>
 
-        <article>
-            <h3>Salade fraîcheur</h3>
-            <img src="https://images.ricardocuisine.com/services/articles/1308x736_salade-cesare-intro.jpg" alt="Salade fraîcheur" width="200">
-            <p>Un mélange croquant de légumes de saison.</p>
-        </article>
+      <article>
+        <h3>Salade fraîcheur</h3>
+        <img src="https://images.ricardocuisine.com/services/articles/1308x736_salade-cesare-intro.jpg"
+          alt="Salade fraîcheur" width="200">
+        <p>Un mélange croquant de légumes de saison.</p>
+      </article>
 
-        <article>
-            <h3>Soupe du chef</h3>
-            <img src="https://images.ricardocuisine.com/services/recipes/1074x1074_204419564154c9482e3eb46-background.jpg" alt="Soupe du chef" width="200">
-            <p>Préparée chaque jour avec des produits frais.</p>
-        </article>
+      <article>
+        <h3>Soupe du chef</h3>
+        <img src="https://images.ricardocuisine.com/services/recipes/1074x1074_204419564154c9482e3eb46-background.jpg"
+          alt="Soupe du chef" width="200">
+        <p>Préparée chaque jour avec des produits frais.</p>
+      </article>
     </section>
 
     <!-- SECTION PLATS -->
     <section id="plats">
-        <h2>Plats</h2>
+      <h2>Plats</h2>
 
-        <article>
-            <h3>Poulet rôti</h3>
-            <img src="https://ffcuisine.fr/wp-content/uploads/2025/01/1735460473-poulet-roti-au-four-recette-croustillante-et-savoureuse.jpg" alt="Poulet rôti" width="200">
-            <p>Accompagné de pommes de terre fondantes.</p>
-        </article>
+      <article>
+        <h3>Poulet rôti</h3>
+        <img
+          src="https://ffcuisine.fr/wp-content/uploads/2025/01/1735460473-poulet-roti-au-four-recette-croustillante-et-savoureuse.jpg"
+          alt="Poulet rôti" width="200">
+        <p>Accompagné de pommes de terre fondantes.</p>
+      </article>
 
-        <article>
-            <h3>Pâtes aux légumes</h3>
-            <img src="https://www.tableadecouvert.fr/wp-content/uploads/2025/05/pates-aux-legumes-la-recette-facile-et-savoureuse.jpg" alt="Pâtes aux légumes" width="200">
-            <p>Un plat végétarien savoureux et coloré.</p>
-        </article>
+      <article>
+        <h3>Pâtes aux légumes</h3>
+        <img
+          src="https://www.tableadecouvert.fr/wp-content/uploads/2025/05/pates-aux-legumes-la-recette-facile-et-savoureuse.jpg"
+          alt="Pâtes aux légumes" width="200">
+        <p>Un plat végétarien savoureux et coloré.</p>
+      </article>
     </section>
 
     <!-- SECTION DESSERTS -->
     <section id="desserts">
-        <h2>Desserts</h2>
+      <h2>Desserts</h2>
 
-        <article>
-            <h3>Tarte aux pommes</h3>
-            <img src="https://tse3.mm.bing.net/th/id/OIP.Ch-mYeOaGVf57fQYAr5JgAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tarte aux pommes" width="200">
-            <p>Une recette traditionnelle et gourmande.</p>
-        </article>
+      <article>
+        <h3>Tarte aux pommes</h3>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.Ch-mYeOaGVf57fQYAr5JgAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+          alt="Tarte aux pommes" width="200">
+        <p>Une recette traditionnelle et gourmande.</p>
+      </article>
 
-        <article>
-            <h3>Mousse au chocolat</h3>
-            <img src="https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29100453/mousse-au-chocolat-et-baileys.jpeg" alt="Mousse au chocolat" width="200">
-            <p>Un classique onctueux et intense.</p>
-        </article>
+      <article>
+        <h3>Mousse au chocolat</h3>
+        <img
+          src="https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/29100453/mousse-au-chocolat-et-baileys.jpeg"
+          alt="Mousse au chocolat" width="200">
+        <p>Un classique onctueux et intense.</p>
+      </article>
     </section>
 
     <!-- SECTION VIDEO -->
     <section id="video">
-        <h2>Vidéo de nos spécialités</h2>
-        <p>
-            <a href="istockphoto-1756049964-640_adpp_is.mp4" target="_blank">
-                Voir la vidéo des spécialités
-            </a>
-        </p>
+      <h2>Vidéo de nos spécialités</h2>
+      <p>
+        <a href="istockphoto-1756049964-640_adpp_is.mp4" target="_blank">
+          Voir la vidéo des spécialités
+        </a>
+      </p>
     </section>
 
     <!-- SECTION HORAIRES -->
     <section id="horaires">
-        <h2>Horaires</h2>
+      <h2>Horaires</h2>
 
-        <table border="1">
-            <tr>
-                <th rowspan="2">Jour</th>
-                <th colspan="2">Ouvertures</th>
-            </tr>
-            <tr>
-                <th>Matin</th>
-                <th>Soir</th>
-            </tr>
+      <table border="1">
+        <tr>
+          <th rowspan="2">Jour</th>
+          <th colspan="2">Ouvertures</th>
+        </tr>
+        <tr>
+          <th>Matin</th>
+          <th>Soir</th>
+        </tr>
 
-            <tr>
-                <td>Lundi</td>
-                <td>Fermé</td>
-                <td>18h - 22h</td>
-            </tr>
+        <tr>
+          <td>Lundi</td>
+          <td>Fermé</td>
+          <td>18h - 22h</td>
+        </tr>
 
-            <tr>
-                <td>Mardi</td>
-                <td>8h - 12h</td>
-                <td>18h - 22h</td>
-            </tr>
+        <tr>
+          <td>Mardi</td>
+          <td>8h - 12h</td>
+          <td>18h - 22h</td>
+        </tr>
 
-            <tr>
-                <td>Mercredi</td>
-                <td colspan="2">Ouvert en continu</td>
-            </tr>
+        <tr>
+          <td>Mercredi</td>
+          <td colspan="2">Ouvert en continu</td>
+        </tr>
 
-            <tr>
-                <td>Jeudi</td>
-                <td>8h - 12h</td>
-                <td>18h - 22h</td>
-            </tr>
+        <tr>
+          <td>Jeudi</td>
+          <td>8h - 12h</td>
+          <td>18h - 22h</td>
+        </tr>
 
-            <tr>
-                <td>Vendredi</td>
-                <td>8h - 12h</td>
-                <td>18h - 23h</td>
-            </tr>
-        </table>
+        <tr>
+          <td>Vendredi</td>
+          <td>8h - 12h</td>
+          <td>18h - 23h</td>
+        </tr>
+      </table>
     </section>
-     <!-- === Pied de page (identique sur les 3 pages) === -->
-  <footer role="contentinfo">
-    <address>
-      <strong>Délices Afro-Canada</strong><br />
-      123 Rue Principale, Gatineau, QC, Canada<br />
-      Tél. : <a href="tel:+18195551234">+1 819 555-1234</a>
-    </address>
-  </footer> 
-</body>
-</html>
 
+    <hr>
+      <!-- === Pied de page (identique sur les 3 pages) === -->
+      <footer>
+        <address>
+          <strong>Délices Afro-Canadiens</strong><br />
+          123 Rue Principale, Gatineau, QC, Canada<br />
+          Tél. : <a href="tel:+18195551234">+1 819 555-1234</a>
+        </address>
+      </footer>
+</body>
+
+</html>
