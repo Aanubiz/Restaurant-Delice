@@ -16,12 +16,12 @@
       <!-- Logo & Titre -->
       <table width="70%">
         <tr>
-          <td><img src="images/Delice.png" alt="Logo du restaurant Délices Afro-Canadiens" width="120" height="120" /></td>
+          <td><img src="images/Delice.png" alt="Logo du restaurant Délices Afro-Canadiens" width="120" height="120" ></td>
           <td><h1>Délices Afro-Canadiens</h1></td>
-          <td align="right"><h4><a href="index.html">Acceuil</a></h4></td>
-          <td align="right"><h4><a href="carte.html">Notre Carte</a></h4></td>
-          <td align="right"><h4><a href="Temoignages.html">Témoignage</a></h4></td>
-          <td align="right"><h4><a href="#">Contact</a></h4></td>
+          <td align="right"><strong><a href="index.html">Acceuil</a></strong></td>
+          <td align="right"><strong><a href="carte.html">Notre Carte</a></strong></td>
+          <td align="right"><strong><a href="Temoignages.html">Témoignage</a></strong></td>
+          <td align="right"><strong><a href="Formulaire.html">Contact</a></strong></td>
         </tr>
       </table>
     </div>
@@ -41,12 +41,15 @@
             <p><label>Nom: <input type="text" size="25" placeholder="Nom"></label></p>
             <p><label>Prénom: <input type="text" size="22" placeholder="Prénom"></label></p>
             <p><label>Email: <input type="text" size="24" placeholder="Email"></label></p>
+            <p>Sexe: 
+                      <br><input type="radio" id="homme" name="sexe" value="Homme"> Homme
+                      <br><input type="radio" id="femme" name="sexe" value="Femme"> Femme
+            </p>
           </fieldset>
-
+          
           <p>
             <label>Messages:</label>
-            <br>
-            <textarea placeholder="Ecrivez votre message ici!" cols="60" rows="15"></textarea>
+            <br><textarea placeholder="Ecrivez votre message ici!" cols="60" rows="15"></textarea>
             <br>
             <input type="submit" value="soumettre">
             <input type="reset" value="Reinitialiser">
@@ -61,8 +64,8 @@
   <!-- === Pied de page (identique sur les 3 pages) === -->
   <footer>
     <address>
-      <strong>Délices Afro-Canadiens</strong><br />
-      123 Rue Principale, Gatineau, QC, Canada<br />
+      <strong>Délices Afro-Canadiens</strong><br>
+      123 Rue Principale, Gatineau, QC, Canada<br>
       Tél. : <a href="tel:+18195551234">+1 819 555-1234</a>
     </address>
   </footer>
